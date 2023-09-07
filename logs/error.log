@@ -1,0 +1,161 @@
+{
+  date: '06-09-2023 15:18',
+  module: 'Server',
+  level: 'error',
+  message: 'User not found',
+  stack: 'Error: User not found\n' +
+    '    at Index (D:\\DEV\\projek-api\\fish\\app\\controller\\user.js:65:42)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)'
+}
+{
+  date: '06-09-2023 15:18',
+  module: 'Server',
+  level: 'error',
+  message: 'User not found',
+  stack: 'Error: User not found\n' +
+    '    at Index (D:\\DEV\\projek-api\\fish\\app\\controller\\user.js:65:42)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)'
+}
+{
+  date: '07-09-2023 09:24',
+  module: 'Server',
+  level: 'error',
+  message: 'User not found',
+  stack: 'Error: User not found\n' +
+    '    at Index (D:\\DEV\\projek-api\\fish\\app\\controller\\user.js:65:42)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)'
+}
+{
+  date: '07-09-2023 09:31',
+  module: 'Server',
+  level: 'error',
+  message: 'bcyrpt is not defined',
+  stack: 'ReferenceError: bcyrpt is not defined\n' +
+    '    at model.<anonymous> (D:\\DEV\\projek-api\\fish\\app\\model\\user.js:28:31)\n' +
+    '    at callMiddlewareFunction (D:\\DEV\\projek-api\\fish\\node_modules\\kareem\\index.js:628:27)\n' +
+    '    at model.next (D:\\DEV\\projek-api\\fish\\node_modules\\kareem\\index.js:93:7)\n' +
+    '    at _next (D:\\DEV\\projek-api\\fish\\node_modules\\kareem\\index.js:146:10)\n' +
+    '    at D:\\DEV\\projek-api\\fish\\node_modules\\kareem\\index.js:653:30\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)'
+}
+{
+  date: '07-09-2023 09:37',
+  module: 'Server',
+  level: 'error',
+  message: 'User not found',
+  stack: 'Error: User not found\n' +
+    '    at FindById (D:\\DEV\\projek-api\\fish\\app\\controller\\user.js:84:42)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)'
+}
+{
+  date: '07-09-2023 09:46',
+  module: 'Server',
+  level: 'error',
+  message: 'forbidden',
+  stack: 'Error: forbidden\n' +
+    '    at verifyToken (D:\\DEV\\projek-api\\fish\\app\\passports\\jwt.js:11:42)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at trim_prefix (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:317:13)\n' +
+    '    at D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:284:7\n' +
+    '    at Function.process_params (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:335:12)\n' +
+    '    at next (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at Function.handle (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:174:3)\n' +
+    '    at router (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:47:12)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at trim_prefix (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:317:13)'
+}
+{
+  date: '07-09-2023 09:46',
+  module: 'Server',
+  level: 'error',
+  message: 'forbidden',
+  stack: 'Error: forbidden\n' +
+    '    at verifyToken (D:\\DEV\\projek-api\\fish\\app\\passports\\jwt.js:11:42)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at trim_prefix (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:317:13)\n' +
+    '    at D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:284:7\n' +
+    '    at Function.process_params (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:335:12)\n' +
+    '    at next (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at Function.handle (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:174:3)\n' +
+    '    at router (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:47:12)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at trim_prefix (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:317:13)'
+}
+{
+  date: '07-09-2023 09:47',
+  module: 'Server',
+  level: 'error',
+  message: 'forbidden',
+  stack: 'Error: forbidden\n' +
+    '    at verifyToken (D:\\DEV\\projek-api\\fish\\app\\passports\\jwt.js:11:42)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at trim_prefix (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:317:13)\n' +
+    '    at D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:284:7\n' +
+    '    at Function.process_params (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:335:12)\n' +
+    '    at next (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at Function.handle (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:174:3)\n' +
+    '    at router (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:47:12)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at trim_prefix (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:317:13)'
+}
+{
+  date: '07-09-2023 09:53',
+  module: 'Server',
+  level: 'error',
+  message: 'forbidden',
+  stack: 'Error: forbidden\n' +
+    '    at verifyToken (D:\\DEV\\projek-api\\fish\\app\\passports\\jwt.js:11:42)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at trim_prefix (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:317:13)\n' +
+    '    at D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:284:7\n' +
+    '    at Function.process_params (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:335:12)\n' +
+    '    at next (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at Function.handle (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:174:3)\n' +
+    '    at router (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:47:12)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at trim_prefix (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:317:13)'
+}
+{
+  date: '07-09-2023 09:54',
+  module: 'Server',
+  level: 'error',
+  message: 'createJWT is not defined',
+  stack: 'ReferenceError: createJWT is not defined\n' +
+    '    at login (D:\\DEV\\projek-api\\fish\\app\\controller\\user.js:28:23)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)'
+}
+{
+  date: '07-09-2023 09:55',
+  module: 'Server',
+  level: 'error',
+  message: 'createJWT is not defined',
+  stack: 'ReferenceError: createJWT is not defined\n' +
+    '    at login (D:\\DEV\\projek-api\\fish\\app\\controller\\user.js:28:23)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)'
+}
+{
+  date: '07-09-2023 09:55',
+  module: 'Server',
+  level: 'error',
+  message: 'createJWT is not defined',
+  stack: 'ReferenceError: createJWT is not defined\n' +
+    '    at login (D:\\DEV\\projek-api\\fish\\app\\controller\\user.js:28:23)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)'
+}
+{
+  date: '07-09-2023 10:11',
+  module: 'Server',
+  level: 'error',
+  message: 'forbidden',
+  stack: 'Error: forbidden\n' +
+    '    at verifyToken (D:\\DEV\\projek-api\\fish\\app\\passports\\jwt.js:11:42)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at trim_prefix (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:317:13)\n' +
+    '    at D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:284:7\n' +
+    '    at Function.process_params (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:335:12)\n' +
+    '    at next (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at Function.handle (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:174:3)\n' +
+    '    at router (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:47:12)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at trim_prefix (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:317:13)'
+}
