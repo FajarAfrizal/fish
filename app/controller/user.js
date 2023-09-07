@@ -1,7 +1,6 @@
 const {User} = require('../model');
 const httpRes = require('../helpers/httpRes');
 const flaverr = require('flaverr');
-const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 
 const login = async (req, res, next) => {
@@ -101,7 +100,7 @@ const Update = async (req, res, next) => {
         const { id } = req.params;
         const { name, username } = req.body;
 
-        const user = await User.findOne(id);
+        const user = await User.findById(id);
 
         if (!user) {
             throw flaverr('E_NOT_FOUND', Error('user id not found'));
