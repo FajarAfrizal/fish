@@ -20,7 +20,10 @@ const userSchema = Schema({
         type: mongoose.Types.ObjectId,
         ref: 'Product',
     }
-})
+}, {
+    timestamps: true
+}
+)
 
 userSchema.pre('save', async function (next) {
     const User = this;

@@ -98,7 +98,7 @@ const FindById = async (req, res, next) => {
 const Update = async (req, res, next) => {
     try {
         const { id } = req.params;
-        const { name, username } = req.body;
+        const { name, username, password } = req.body;
 
         const user = await User.findById(id);
 
@@ -106,20 +106,23 @@ const Update = async (req, res, next) => {
             throw flaverr('E_NOT_FOUND', Error('user id not found'));
         }
 
-        const checkUsername = await User.findOne(username);
+        const checkUsername = await User.findOne({username});
 
         if (checkUsername) {
             throw flaverr('E_BAD_REQUEST', Error('Username already exist'))
         }
 
-        const dataUser = {
-            name,
-            username,
+        user.name = name;
+        user.username = username;
+        
+        if (password) {
+            user.password = password;
         }
+   
+       
+        await user.save({ runValidators: false });
 
-        await User.create(dataUser);
-
-        return httpRes(res, 200);
+            return httpRes(res, 200);
     } catch (err) {
         return next(err)
     }
