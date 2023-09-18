@@ -67,6 +67,7 @@ const register = async (req, res, next) => {
 const Index = async (req, res, next) => {
     try {
         const user = await User.find()
+        .select('-password')
 
         if (!user.length) {
             throw flaverr('E_NOT_FOUND', Error('User not found'));
@@ -83,7 +84,8 @@ const FindById = async (req, res, next) => {
     try {
         const { id } = req.params
 
-        const user = await User.findById(id);
+        const user = await User.findById(id)
+        .select('-password');
 
         if (!user) {
             throw flaverr('E_NOT_FOUND', Error('User not found'));
@@ -122,7 +124,7 @@ const Update = async (req, res, next) => {
        
         await user.save({ runValidators: false });
 
-            return httpRes(res, 200);
+        return httpRes(res, 200);
     } catch (err) {
         return next(err)
     }

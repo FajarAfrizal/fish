@@ -3,19 +3,32 @@ const mongoose = require('mongoose');
 const { model, Schema } = mongoose;
 
 const productSchema =  Schema({
-    name: {
-        type: String,
-        required: true
-    },
-    serial_number: {
-        type: Number,
-        required: true
-    },
     user_id: {
         type: mongoose.Types.ObjectId,
         ref: 'User',
         required: true
+    },
+    type_product: {
+        type: String,
+        required: true
+    },
+    serial_number: {
+        type: String,
+        required: true
+    },
+    detail_location: {
+        type : String,
+        required : true
+    },
+    range_stock: {
+        type: Number,
+        required: true
     }
+},
+{
+    timestamps: true,
 })
 
-module.exports = model('Product', productSchema);
+const Product = model('Product', productSchema);
+
+module.exports = Product;

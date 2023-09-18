@@ -1,7 +1,6 @@
 const express = require('express');
 const path = require('path');
-const cookieParser = require('cookie-parser');
-const morgan = require('morgan');
+
 const logger = require('./app/helpers/logger');
 
 const app = express();
@@ -16,11 +15,7 @@ app.listen(port);
 logger('info', 'Server', `Server is listening on: http://${host}:${port}`);
 
 
-app.use(morgan('dev'));
-app.use(express.json());
-app.use(express.urlencoded({ extended: false }));
-app.use(cookieParser());
-app.use(express.static(path.join(__dirname, 'public')));
+
 
 app.get('/', (req, res) => {
   res.status(200).json({
@@ -28,10 +23,11 @@ app.get('/', (req, res) => {
   })
 })
 
+app.use(express.json());
+app.use(express.urlencoded({ extended: false }));
 
 app.use('/', router);
   
 app.use(errorStack);
 app.use(notFound);
 
-module.exports = app;

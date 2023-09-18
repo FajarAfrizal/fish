@@ -1,4 +1,4 @@
-'use strict';
+
 
 const mongoose = require('mongoose');
 const fs = require('fs');
@@ -17,8 +17,7 @@ dbConnection.once('open', () => {
   console.log('Connected to MongoDB');
 });
 
-fs
-  .readdirSync(__dirname)
+fs.readdirSync(__dirname)
   .filter(file => {
     return (
       file.indexOf('.') !== 0 &&
@@ -32,9 +31,6 @@ fs
     db[model.modelName] = model;
   });
 
-// Tambahkan kode untuk menghubungkan model-model dengan skema MongoDB di sini
-// Misalnya, jika Anda memiliki model User, Anda dapat menghubungkannya seperti ini:
-// const User = require('./user.model');
-// db.User = User;
+
 
 module.exports = db;

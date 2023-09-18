@@ -8,6 +8,7 @@ Route.post('/login', User.login);
 
 const routeProps = {
     Route,
-    auth: false
+    auth:false
 }
+
 module.exports = routeProps;

@@ -12,6 +12,6 @@ Route.delete('/:id', User.Delete);
 
 const routeProps = {
     Route,
-    auth: true
+    auth: false
 }
 module.exports = routeProps;

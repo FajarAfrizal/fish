@@ -10,13 +10,15 @@ const historyProduct = Schema({
         type: mongoose.Types.ObjectId,
         ref: 'Product'
     },
-    time_at: { 
-        type: Date,
-        default: new Date()
-    },
+  
     serving: {
         type: Number,
     }
-})
+},{
+    timestamps: true,
+}
+)
 
-module.exports = model('History', historyProduct);
+const History = model('History', historyProduct);
+
+module.exports = History;
