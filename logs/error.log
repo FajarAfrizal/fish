@@ -815,3 +815,12 @@
     '    at register (D:\\DEV\\projek-api\\fish\\app\\controller\\user.js:50:44)\n' +
     '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)'
 }
+{
+  date: '18-09-2023 12:31',
+  module: 'Server',
+  level: 'error',
+  message: 'User already registered',
+  stack: 'Error: User already registered\n' +
+    '    at register (D:\\DEV\\projek-api\\fish\\app\\controller\\user.js:50:44)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)'
+}
