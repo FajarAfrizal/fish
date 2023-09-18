@@ -3,9 +3,10 @@ const path = require('path');
 const cors = require('cors');
 
 const logger = require('./app/helpers/logger');
-app.use(cors());
 
 const app = express();
+app.use(cors());
+
 const router = require('./app/routes');
 
 const { notFound, errorStack} = require('./app/middlewares/handle-error');
