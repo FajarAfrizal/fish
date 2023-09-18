@@ -3,6 +3,7 @@ const path = require('path');
 const cors = require('cors');
 
 const logger = require('./app/helpers/logger');
+app.use(cors());
 
 const app = express();
 const router = require('./app/routes');
@@ -16,7 +17,6 @@ app.listen(port);
 logger('info', 'Server', `Server is listening on: http://${host}:${port}`);
 
 
-app.use(cors());
 
 app.get('/', (req, res) => {
   res.status(200).json({
