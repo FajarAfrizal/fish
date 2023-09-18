@@ -5,7 +5,9 @@ const cors = require('cors');
 const logger = require('./app/helpers/logger');
 
 const app = express();
-app.use(cors());
+app.use(cors({
+  origin: 'http://localhost:3000'
+}));
 
 const router = require('./app/routes');
 
