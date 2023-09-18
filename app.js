@@ -5,9 +5,13 @@ const cors = require('cors');
 const logger = require('./app/helpers/logger');
 
 const app = express();
-app.use(cors({
-  origin: true
-}));
+
+const corsOptions = {
+  origin: 'http://localhost:3000', // Replace with the allowed origin(s)
+  methods: ['GET', 'POST', 'PUT', 'DELETE'], // HTTP methods to allow
+  allowedHeaders: ['Content-Type', 'Authorization'], // Allowed request headers
+};
+app.use(cors( corsOptions ));
 
 const router = require('./app/routes');
 
