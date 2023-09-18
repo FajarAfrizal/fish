@@ -6,7 +6,7 @@ const logger = require('./app/helpers/logger');
 
 const app = express();
 
-const allowedOrigins = ['http://localhost:5173'];
+const allowedOrigins = ['http://localhost:3000'];
 
 // Middleware CORS
 const corsOptions = {
