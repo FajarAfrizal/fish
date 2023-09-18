@@ -5,7 +5,7 @@ const verifyToken = require('../passports/jwt');
 
 // Declarations
 const Route = express.Router();
-const v1 = '/api/v1';
+const v1 = '/v1';
 
 // Routes
 const allFiles = fs

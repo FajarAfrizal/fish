@@ -824,3 +824,649 @@
     '    at register (D:\\DEV\\projek-api\\fish\\app\\controller\\user.js:50:44)\n' +
     '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)'
 }
+{
+  date: '18-09-2023 14:20',
+  module: 'Server',
+  level: 'error',
+  message: 'please provide username and password',
+  stack: 'Error: please provide username and password\n' +
+    '    at login (D:\\DEV\\projek-api\\fish\\app\\controller\\user.js:11:44)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\route.js:137:13)\n' +
+    '    at Route.dispatch (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\route.js:112:3)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:281:22\n' +
+    '    at Function.process_params (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:335:12)\n' +
+    '    at next (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at Function.handle (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:174:3)\n' +
+    '    at router (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:47:12)'
+}
+{
+  date: '18-09-2023 14:20',
+  module: 'Server',
+  level: 'error',
+  message: 'please provide username and password',
+  stack: 'Error: please provide username and password\n' +
+    '    at login (D:\\DEV\\projek-api\\fish\\app\\controller\\user.js:11:44)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\route.js:137:13)\n' +
+    '    at Route.dispatch (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\route.js:112:3)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:281:22\n' +
+    '    at Function.process_params (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:335:12)\n' +
+    '    at next (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at Function.handle (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:174:3)\n' +
+    '    at router (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:47:12)'
+}
+{
+  date: '18-09-2023 14:20',
+  module: 'Server',
+  level: 'error',
+  message: 'please provide username and password',
+  stack: 'Error: please provide username and password\n' +
+    '    at login (D:\\DEV\\projek-api\\fish\\app\\controller\\user.js:11:44)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\route.js:137:13)\n' +
+    '    at Route.dispatch (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\route.js:112:3)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:281:22\n' +
+    '    at Function.process_params (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:335:12)\n' +
+    '    at next (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at Function.handle (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:174:3)\n' +
+    '    at router (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:47:12)'
+}
+{
+  date: '18-09-2023 14:20',
+  module: 'Server',
+  level: 'error',
+  message: 'please provide username and password',
+  stack: 'Error: please provide username and password\n' +
+    '    at login (D:\\DEV\\projek-api\\fish\\app\\controller\\user.js:11:44)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\route.js:137:13)\n' +
+    '    at Route.dispatch (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\route.js:112:3)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:281:22\n' +
+    '    at Function.process_params (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:335:12)\n' +
+    '    at next (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at Function.handle (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:174:3)\n' +
+    '    at router (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:47:12)'
+}
+{
+  date: '18-09-2023 14:20',
+  module: 'Server',
+  level: 'error',
+  message: 'please provide username and password',
+  stack: 'Error: please provide username and password\n' +
+    '    at login (D:\\DEV\\projek-api\\fish\\app\\controller\\user.js:11:44)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\route.js:137:13)\n' +
+    '    at Route.dispatch (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\route.js:112:3)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:281:22\n' +
+    '    at Function.process_params (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:335:12)\n' +
+    '    at next (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at Function.handle (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:174:3)\n' +
+    '    at router (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:47:12)'
+}
+{
+  date: '18-09-2023 14:20',
+  module: 'Server',
+  level: 'error',
+  message: 'please provide username and password',
+  stack: 'Error: please provide username and password\n' +
+    '    at login (D:\\DEV\\projek-api\\fish\\app\\controller\\user.js:11:44)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\route.js:137:13)\n' +
+    '    at Route.dispatch (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\route.js:112:3)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:281:22\n' +
+    '    at Function.process_params (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:335:12)\n' +
+    '    at next (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at Function.handle (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:174:3)\n' +
+    '    at router (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:47:12)'
+}
+{
+  date: '18-09-2023 14:20',
+  module: 'Server',
+  level: 'error',
+  message: 'please provide username and password',
+  stack: 'Error: please provide username and password\n' +
+    '    at login (D:\\DEV\\projek-api\\fish\\app\\controller\\user.js:11:44)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\route.js:137:13)\n' +
+    '    at Route.dispatch (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\route.js:112:3)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:281:22\n' +
+    '    at Function.process_params (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:335:12)\n' +
+    '    at next (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at Function.handle (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:174:3)\n' +
+    '    at router (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:47:12)'
+}
+{
+  date: '18-09-2023 14:20',
+  module: 'Server',
+  level: 'error',
+  message: 'please provide username and password',
+  stack: 'Error: please provide username and password\n' +
+    '    at login (D:\\DEV\\projek-api\\fish\\app\\controller\\user.js:11:44)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\route.js:137:13)\n' +
+    '    at Route.dispatch (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\route.js:112:3)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:281:22\n' +
+    '    at Function.process_params (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:335:12)\n' +
+    '    at next (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at Function.handle (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:174:3)\n' +
+    '    at router (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:47:12)'
+}
+{
+  date: '18-09-2023 14:20',
+  module: 'Server',
+  level: 'error',
+  message: 'please provide username and password',
+  stack: 'Error: please provide username and password\n' +
+    '    at login (D:\\DEV\\projek-api\\fish\\app\\controller\\user.js:11:44)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\route.js:137:13)\n' +
+    '    at Route.dispatch (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\route.js:112:3)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:281:22\n' +
+    '    at Function.process_params (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:335:12)\n' +
+    '    at next (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at Function.handle (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:174:3)\n' +
+    '    at router (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:47:12)'
+}
+{
+  date: '18-09-2023 14:20',
+  module: 'Server',
+  level: 'error',
+  message: 'please provide username and password',
+  stack: 'Error: please provide username and password\n' +
+    '    at login (D:\\DEV\\projek-api\\fish\\app\\controller\\user.js:11:44)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\route.js:137:13)\n' +
+    '    at Route.dispatch (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\route.js:112:3)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:281:22\n' +
+    '    at Function.process_params (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:335:12)\n' +
+    '    at next (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at Function.handle (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:174:3)\n' +
+    '    at router (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:47:12)'
+}
+{
+  date: '18-09-2023 14:20',
+  module: 'Server',
+  level: 'error',
+  message: 'Invalide credentials',
+  stack: 'Error: Invalide credentials\n' +
+    '    at login (D:\\DEV\\projek-api\\fish\\app\\controller\\user.js:17:45)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)'
+}
+{
+  date: '18-09-2023 14:20',
+  module: 'Server',
+  level: 'error',
+  message: 'Invalide credentials',
+  stack: 'Error: Invalide credentials\n' +
+    '    at login (D:\\DEV\\projek-api\\fish\\app\\controller\\user.js:17:45)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)'
+}
+{
+  date: '18-09-2023 14:20',
+  module: 'Server',
+  level: 'error',
+  message: 'Invalide credentials',
+  stack: 'Error: Invalide credentials\n' +
+    '    at login (D:\\DEV\\projek-api\\fish\\app\\controller\\user.js:17:45)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)'
+}
+{
+  date: '18-09-2023 14:22',
+  module: 'Server',
+  level: 'error',
+  message: 'Invalide credentials',
+  stack: 'Error: Invalide credentials\n' +
+    '    at login (D:\\DEV\\projek-api\\fish\\app\\controller\\user.js:17:45)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)'
+}
+{
+  date: '18-09-2023 14:22',
+  module: 'Server',
+  level: 'error',
+  message: 'Invalide credentials',
+  stack: 'Error: Invalide credentials\n' +
+    '    at login (D:\\DEV\\projek-api\\fish\\app\\controller\\user.js:17:45)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)'
+}
+{
+  date: '18-09-2023 14:22',
+  module: 'Server',
+  level: 'error',
+  message: 'Invalide credentials',
+  stack: 'Error: Invalide credentials\n' +
+    '    at login (D:\\DEV\\projek-api\\fish\\app\\controller\\user.js:17:45)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)'
+}
+{
+  date: '18-09-2023 14:36',
+  module: 'Server',
+  level: 'error',
+  message: 'please provide username and password',
+  stack: 'Error: please provide username and password\n' +
+    '    at login (D:\\DEV\\projek-api\\fish\\app\\controller\\user.js:11:44)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\route.js:137:13)\n' +
+    '    at Route.dispatch (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\route.js:112:3)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:281:22\n' +
+    '    at Function.process_params (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:335:12)\n' +
+    '    at next (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at Function.handle (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:174:3)\n' +
+    '    at router (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:47:12)'
+}
+{
+  date: '18-09-2023 14:36',
+  module: 'Server',
+  level: 'error',
+  message: 'please provide username and password',
+  stack: 'Error: please provide username and password\n' +
+    '    at login (D:\\DEV\\projek-api\\fish\\app\\controller\\user.js:11:44)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\route.js:137:13)\n' +
+    '    at Route.dispatch (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\route.js:112:3)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:281:22\n' +
+    '    at Function.process_params (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:335:12)\n' +
+    '    at next (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at Function.handle (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:174:3)\n' +
+    '    at router (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:47:12)'
+}
+{
+  date: '18-09-2023 14:36',
+  module: 'Server',
+  level: 'error',
+  message: 'please provide username and password',
+  stack: 'Error: please provide username and password\n' +
+    '    at login (D:\\DEV\\projek-api\\fish\\app\\controller\\user.js:11:44)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\route.js:137:13)\n' +
+    '    at Route.dispatch (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\route.js:112:3)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:281:22\n' +
+    '    at Function.process_params (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:335:12)\n' +
+    '    at next (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at Function.handle (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:174:3)\n' +
+    '    at router (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:47:12)'
+}
+{
+  date: '18-09-2023 14:36',
+  module: 'Server',
+  level: 'error',
+  message: 'please provide username and password',
+  stack: 'Error: please provide username and password\n' +
+    '    at login (D:\\DEV\\projek-api\\fish\\app\\controller\\user.js:11:44)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\route.js:137:13)\n' +
+    '    at Route.dispatch (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\route.js:112:3)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:281:22\n' +
+    '    at Function.process_params (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:335:12)\n' +
+    '    at next (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at Function.handle (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:174:3)\n' +
+    '    at router (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:47:12)'
+}
+{
+  date: '18-09-2023 14:36',
+  module: 'Server',
+  level: 'error',
+  message: 'please provide username and password',
+  stack: 'Error: please provide username and password\n' +
+    '    at login (D:\\DEV\\projek-api\\fish\\app\\controller\\user.js:11:44)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\route.js:137:13)\n' +
+    '    at Route.dispatch (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\route.js:112:3)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:281:22\n' +
+    '    at Function.process_params (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:335:12)\n' +
+    '    at next (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at Function.handle (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:174:3)\n' +
+    '    at router (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:47:12)'
+}
+{
+  date: '18-09-2023 14:36',
+  module: 'Server',
+  level: 'error',
+  message: 'please provide username and password',
+  stack: 'Error: please provide username and password\n' +
+    '    at login (D:\\DEV\\projek-api\\fish\\app\\controller\\user.js:11:44)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\route.js:137:13)\n' +
+    '    at Route.dispatch (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\route.js:112:3)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:281:22\n' +
+    '    at Function.process_params (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:335:12)\n' +
+    '    at next (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at Function.handle (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:174:3)\n' +
+    '    at router (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:47:12)'
+}
+{
+  date: '18-09-2023 14:36',
+  module: 'Server',
+  level: 'error',
+  message: 'please provide username and password',
+  stack: 'Error: please provide username and password\n' +
+    '    at login (D:\\DEV\\projek-api\\fish\\app\\controller\\user.js:11:44)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\route.js:137:13)\n' +
+    '    at Route.dispatch (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\route.js:112:3)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:281:22\n' +
+    '    at Function.process_params (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:335:12)\n' +
+    '    at next (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at Function.handle (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:174:3)\n' +
+    '    at router (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:47:12)'
+}
+{
+  date: '18-09-2023 14:36',
+  module: 'Server',
+  level: 'error',
+  message: 'please provide username and password',
+  stack: 'Error: please provide username and password\n' +
+    '    at login (D:\\DEV\\projek-api\\fish\\app\\controller\\user.js:11:44)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\route.js:137:13)\n' +
+    '    at Route.dispatch (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\route.js:112:3)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:281:22\n' +
+    '    at Function.process_params (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:335:12)\n' +
+    '    at next (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at Function.handle (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:174:3)\n' +
+    '    at router (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:47:12)'
+}
+{
+  date: '18-09-2023 14:37',
+  module: 'Server',
+  level: 'error',
+  message: 'Invalide credentials',
+  stack: 'Error: Invalide credentials\n' +
+    '    at login (D:\\DEV\\projek-api\\fish\\app\\controller\\user.js:17:45)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)'
+}
+{
+  date: '18-09-2023 14:42',
+  module: 'Server',
+  level: 'error',
+  message: 'Invalide credentials',
+  stack: 'Error: Invalide credentials\n' +
+    '    at login (D:\\DEV\\projek-api\\fish\\app\\controller\\user.js:17:45)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)'
+}
+{
+  date: '18-09-2023 14:42',
+  module: 'Server',
+  level: 'error',
+  message: 'Invalide credentials',
+  stack: 'Error: Invalide credentials\n' +
+    '    at login (D:\\DEV\\projek-api\\fish\\app\\controller\\user.js:17:45)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)'
+}
+{
+  date: '18-09-2023 14:42',
+  module: 'Server',
+  level: 'error',
+  message: 'Invalide credentials',
+  stack: 'Error: Invalide credentials\n' +
+    '    at login (D:\\DEV\\projek-api\\fish\\app\\controller\\user.js:17:45)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)'
+}
+{
+  date: '18-09-2023 14:42',
+  module: 'Server',
+  level: 'error',
+  message: 'Invalide credentials',
+  stack: 'Error: Invalide credentials\n' +
+    '    at login (D:\\DEV\\projek-api\\fish\\app\\controller\\user.js:17:45)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)'
+}
+{
+  date: '18-09-2023 14:42',
+  module: 'Server',
+  level: 'error',
+  message: 'Invalide credentials',
+  stack: 'Error: Invalide credentials\n' +
+    '    at login (D:\\DEV\\projek-api\\fish\\app\\controller\\user.js:17:45)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)'
+}
+{
+  date: '18-09-2023 14:42',
+  module: 'Server',
+  level: 'error',
+  message: 'Invalide credentials',
+  stack: 'Error: Invalide credentials\n' +
+    '    at login (D:\\DEV\\projek-api\\fish\\app\\controller\\user.js:17:45)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)'
+}
+{
+  date: '18-09-2023 14:42',
+  module: 'Server',
+  level: 'error',
+  message: 'Invalide credentials',
+  stack: 'Error: Invalide credentials\n' +
+    '    at login (D:\\DEV\\projek-api\\fish\\app\\controller\\user.js:17:45)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)'
+}
+{
+  date: '18-09-2023 14:42',
+  module: 'Server',
+  level: 'error',
+  message: 'Invalide credentials',
+  stack: 'Error: Invalide credentials\n' +
+    '    at login (D:\\DEV\\projek-api\\fish\\app\\controller\\user.js:17:45)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)'
+}
+{
+  date: '18-09-2023 14:42',
+  module: 'Server',
+  level: 'error',
+  message: 'Invalide credentials',
+  stack: 'Error: Invalide credentials\n' +
+    '    at login (D:\\DEV\\projek-api\\fish\\app\\controller\\user.js:17:45)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)'
+}
+{
+  date: '18-09-2023 14:42',
+  module: 'Server',
+  level: 'error',
+  message: 'Invalide credentials',
+  stack: 'Error: Invalide credentials\n' +
+    '    at login (D:\\DEV\\projek-api\\fish\\app\\controller\\user.js:17:45)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)'
+}
+{
+  date: '18-09-2023 14:42',
+  module: 'Server',
+  level: 'error',
+  message: 'Invalide credentials',
+  stack: 'Error: Invalide credentials\n' +
+    '    at login (D:\\DEV\\projek-api\\fish\\app\\controller\\user.js:17:45)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)'
+}
+{
+  date: '18-09-2023 14:42',
+  module: 'Server',
+  level: 'error',
+  message: 'Invalide credentials',
+  stack: 'Error: Invalide credentials\n' +
+    '    at login (D:\\DEV\\projek-api\\fish\\app\\controller\\user.js:17:45)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)'
+}
+{
+  date: '18-09-2023 14:42',
+  module: 'Server',
+  level: 'error',
+  message: 'Invalide credentials',
+  stack: 'Error: Invalide credentials\n' +
+    '    at login (D:\\DEV\\projek-api\\fish\\app\\controller\\user.js:17:45)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)'
+}
+{
+  date: '18-09-2023 14:42',
+  module: 'Server',
+  level: 'error',
+  message: 'Invalide credentials',
+  stack: 'Error: Invalide credentials\n' +
+    '    at login (D:\\DEV\\projek-api\\fish\\app\\controller\\user.js:17:45)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)'
+}
+{
+  date: '18-09-2023 14:42',
+  module: 'Server',
+  level: 'error',
+  message: 'Invalide credentials',
+  stack: 'Error: Invalide credentials\n' +
+    '    at login (D:\\DEV\\projek-api\\fish\\app\\controller\\user.js:17:45)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)'
+}
+{
+  date: '18-09-2023 14:42',
+  module: 'Server',
+  level: 'error',
+  message: 'Invalide credentials',
+  stack: 'Error: Invalide credentials\n' +
+    '    at login (D:\\DEV\\projek-api\\fish\\app\\controller\\user.js:17:45)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)'
+}
+{
+  date: '18-09-2023 14:42',
+  module: 'Server',
+  level: 'error',
+  message: 'Invalide credentials',
+  stack: 'Error: Invalide credentials\n' +
+    '    at login (D:\\DEV\\projek-api\\fish\\app\\controller\\user.js:17:45)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)'
+}
+{
+  date: '18-09-2023 14:42',
+  module: 'Server',
+  level: 'error',
+  message: 'Invalide credentials',
+  stack: 'Error: Invalide credentials\n' +
+    '    at login (D:\\DEV\\projek-api\\fish\\app\\controller\\user.js:17:45)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)'
+}
+{
+  date: '18-09-2023 14:42',
+  module: 'Server',
+  level: 'error',
+  message: 'Invalide credentials',
+  stack: 'Error: Invalide credentials\n' +
+    '    at login (D:\\DEV\\projek-api\\fish\\app\\controller\\user.js:17:45)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)'
+}
+{
+  date: '18-09-2023 14:42',
+  module: 'Server',
+  level: 'error',
+  message: 'Invalide credentials',
+  stack: 'Error: Invalide credentials\n' +
+    '    at login (D:\\DEV\\projek-api\\fish\\app\\controller\\user.js:17:45)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)'
+}
+{
+  date: '18-09-2023 14:42',
+  module: 'Server',
+  level: 'error',
+  message: 'Invalide credentials',
+  stack: 'Error: Invalide credentials\n' +
+    '    at login (D:\\DEV\\projek-api\\fish\\app\\controller\\user.js:17:45)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)'
+}
+{
+  date: '18-09-2023 14:42',
+  module: 'Server',
+  level: 'error',
+  message: 'Invalide credentials',
+  stack: 'Error: Invalide credentials\n' +
+    '    at login (D:\\DEV\\projek-api\\fish\\app\\controller\\user.js:17:45)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)'
+}
+{
+  date: '18-09-2023 14:42',
+  module: 'Server',
+  level: 'error',
+  message: 'Invalide credentials',
+  stack: 'Error: Invalide credentials\n' +
+    '    at login (D:\\DEV\\projek-api\\fish\\app\\controller\\user.js:17:45)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)'
+}
+{
+  date: '18-09-2023 14:42',
+  module: 'Server',
+  level: 'error',
+  message: 'Invalide credentials',
+  stack: 'Error: Invalide credentials\n' +
+    '    at login (D:\\DEV\\projek-api\\fish\\app\\controller\\user.js:17:45)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)'
+}
+{
+  date: '18-09-2023 14:42',
+  module: 'Server',
+  level: 'error',
+  message: 'Invalide credentials',
+  stack: 'Error: Invalide credentials\n' +
+    '    at login (D:\\DEV\\projek-api\\fish\\app\\controller\\user.js:17:45)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)'
+}
+{
+  date: '18-09-2023 14:43',
+  module: 'Server',
+  level: 'error',
+  message: 'Invalid credentials',
+  stack: 'Error: Invalid credentials\n' +
+    '    at login (D:\\DEV\\projek-api\\fish\\app\\controller\\user.js:23:45)'
+}
+{
+  date: '18-09-2023 14:43',
+  module: 'Server',
+  level: 'error',
+  message: 'Invalid credentials',
+  stack: 'Error: Invalid credentials\n' +
+    '    at login (D:\\DEV\\projek-api\\fish\\app\\controller\\user.js:23:45)'
+}
+{
+  date: '18-09-2023 14:43',
+  module: 'Server',
+  level: 'error',
+  message: 'Invalid credentials',
+  stack: 'Error: Invalid credentials\n' +
+    '    at login (D:\\DEV\\projek-api\\fish\\app\\controller\\user.js:23:45)'
+}
+{
+  date: '18-09-2023 14:43',
+  module: 'Server',
+  level: 'error',
+  message: 'Invalid credentials',
+  stack: 'Error: Invalid credentials\n' +
+    '    at login (D:\\DEV\\projek-api\\fish\\app\\controller\\user.js:23:45)\n' +
+    '    at runNextTicks (node:internal/process/task_queues:60:5)\n' +
+    '    at process.processImmediate (node:internal/timers:447:9)'
+}
+{
+  date: '18-09-2023 14:43',
+  module: 'Server',
+  level: 'error',
+  message: 'Invalid credentials',
+  stack: 'Error: Invalid credentials\n' +
+    '    at login (D:\\DEV\\projek-api\\fish\\app\\controller\\user.js:23:45)\n' +
+    '    at runNextTicks (node:internal/process/task_queues:60:5)\n' +
+    '    at process.processImmediate (node:internal/timers:447:9)'
+}
+{
+  date: '18-09-2023 14:43',
+  module: 'Server',
+  level: 'error',
+  message: 'Invalid credentials',
+  stack: 'Error: Invalid credentials\n' +
+    '    at login (D:\\DEV\\projek-api\\fish\\app\\controller\\user.js:23:45)'
+}
