@@ -6,12 +6,21 @@ const logger = require('./app/helpers/logger');
 
 const app = express();
 
+const allowedOrigins = ['http://localhost:3000'];
+
+// Middleware CORS
 const corsOptions = {
-  origin: 'http://localhost:3000', // Replace with the allowed origin(s)
-  methods: ['GET', 'POST', 'PUT', 'DELETE'], // HTTP methods to allow
-  allowedHeaders: ['Content-Type', 'Authorization', 'Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept'], // Allowed request headers
+  origin: function (origin, callback) {
+    if (allowedOrigins.indexOf(origin) !== -1 || !origin) {
+      callback(null, true);
+    } else {
+      callback(new Error('Origin not allowed by CORS'));
+    }
+  },
+  credentials: true, 
 };
-app.use(cors( corsOptions ));
+
+app.use(cors(corsOptions));
 
 const router = require('./app/routes');
 
