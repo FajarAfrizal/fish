@@ -20,12 +20,14 @@ const Index = async (req, res, next) => {
 
 const Create = async (req, res, next) => {
     try {
-        const { type_product, serial_number } = req.body;
+        const { type_product, serial_number, range_stock, detail_location } = req.body;
 
         const product = {
             type_product,
             serial_number,
-            user_id: req.user.id
+            range_stock,
+            detail_location,
+            user_id: req.user.user_id
         }
 
         await Product.create(product)
@@ -55,7 +57,7 @@ const FindById = async (req, res, next) => {
 const Update = async (req, res, next) => {
     try{ 
         const { id } = req.params;
-        const { type_product, serial_number } = req.body;
+        const { type_product, serial_number, range_stock, detail_location } = req.body;
 
         const product = await Product.findById(id);
 
@@ -65,8 +67,10 @@ const Update = async (req, res, next) => {
 
         product.type_product = type_product;
         product.serial_number = serial_number;
+        product.range_stock = range_stock;
+        product.detail_location = detail_location;
 
-        await Product.save()
+        await product.save()
 
         return httpRes(res, 200)
     } catch (err){
@@ -84,7 +88,7 @@ const Delete = async (req, res, next) => {
             throw flaverr('E_NOT_FOUND', Error(`Product with ${id} not found`));
         }
 
-        await product.deleteOne(product)
+        await product.deleteOne()
 
         return httpRes(res, 200)
     } catch (err){

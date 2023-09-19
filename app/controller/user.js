@@ -148,11 +148,31 @@ const Delete = async (req, res, next) => {
     }
 }
 
+const Me = async (req, res, next) => {
+    try {
+        console.log('ip', req.user)
+
+        const id = req.user.user_id;
+
+
+        const user = await User.findById(id).select('-password');
+
+        if (!user) {
+            throw flaverr('E_NOT_FOUND', Error('Your id not found'))
+        }
+
+        return httpRes(res, 200, user)
+    } catch (err) {
+        return next(err)
+    }
+}
+
 module.exports = {
     Index,
     FindById,
     Update,
     Delete,
     register,
-    login
+    login,
+    Me
 }

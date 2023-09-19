@@ -10,7 +10,7 @@ Route.delete('/:id', Product.Delete);
 
 const routeProps = {
     Route,
-    auth: false,
+    auth: true,
 }
 
 module.exports = routeProps;

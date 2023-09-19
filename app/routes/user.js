@@ -10,8 +10,11 @@ Route.get('/:id', User.FindById);
 
 Route.delete('/:id', User.Delete);
 
+Route.get('/auth/me',  User.Me);
+
+
 const routeProps = {
     Route,
-    auth: false
+    auth: true
 }
 module.exports = routeProps;

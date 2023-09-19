@@ -1470,3 +1470,723 @@
   stack: 'Error: Invalid credentials\n' +
     '    at login (D:\\DEV\\projek-api\\fish\\app\\controller\\user.js:23:45)'
 }
+{
+  date: '19-09-2023 09:37',
+  module: 'Server',
+  level: 'error',
+  message: "Cannot destructure property 'id' of 'req.user' as it is undefined.",
+  stack: "TypeError: Cannot destructure property 'id' of 'req.user' as it is undefined.\n" +
+    '    at Me (D:\\DEV\\projek-api\\fish\\app\\controller\\user.js:153:17)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\route.js:137:13)\n' +
+    '    at Route.dispatch (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\route.js:112:3)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:281:22\n' +
+    '    at Function.process_params (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:335:12)\n' +
+    '    at next (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at Function.handle (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:174:3)\n' +
+    '    at router (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:47:12)'
+}
+{
+  date: '19-09-2023 09:37',
+  module: 'Server',
+  level: 'error',
+  message: "Cannot destructure property 'id' of 'req.user' as it is undefined.",
+  stack: "TypeError: Cannot destructure property 'id' of 'req.user' as it is undefined.\n" +
+    '    at Me (D:\\DEV\\projek-api\\fish\\app\\controller\\user.js:153:17)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\route.js:137:13)\n' +
+    '    at Route.dispatch (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\route.js:112:3)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:281:22\n' +
+    '    at Function.process_params (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:335:12)\n' +
+    '    at next (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at Function.handle (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:174:3)\n' +
+    '    at router (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:47:12)'
+}
+{
+  date: '19-09-2023 09:38',
+  module: 'Server',
+  level: 'error',
+  message: "Cannot destructure property 'id' of 'req.user' as it is undefined.",
+  stack: "TypeError: Cannot destructure property 'id' of 'req.user' as it is undefined.\n" +
+    '    at Me (D:\\DEV\\projek-api\\fish\\app\\controller\\user.js:153:17)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\route.js:137:13)\n' +
+    '    at Route.dispatch (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\route.js:112:3)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:281:22\n' +
+    '    at Function.process_params (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:335:12)\n' +
+    '    at next (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at Function.handle (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:174:3)\n' +
+    '    at router (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:47:12)'
+}
+{
+  date: '19-09-2023 09:38',
+  module: 'Server',
+  level: 'error',
+  message: "Cannot destructure property 'id' of 'req.user' as it is undefined.",
+  stack: "TypeError: Cannot destructure property 'id' of 'req.user' as it is undefined.\n" +
+    '    at Me (D:\\DEV\\projek-api\\fish\\app\\controller\\user.js:153:17)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\route.js:137:13)\n' +
+    '    at Route.dispatch (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\route.js:112:3)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:281:22\n' +
+    '    at Function.process_params (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:335:12)\n' +
+    '    at next (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at Function.handle (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:174:3)\n' +
+    '    at router (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:47:12)'
+}
+{
+  date: '19-09-2023 09:38',
+  module: 'Server',
+  level: 'error',
+  message: "Cannot destructure property 'userId' of 'req.user' as it is undefined.",
+  stack: "TypeError: Cannot destructure property 'userId' of 'req.user' as it is undefined.\n" +
+    '    at Me (D:\\DEV\\projek-api\\fish\\app\\controller\\user.js:153:17)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\route.js:137:13)\n' +
+    '    at Route.dispatch (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\route.js:112:3)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:281:22\n' +
+    '    at Function.process_params (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:335:12)\n' +
+    '    at next (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at Function.handle (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:174:3)\n' +
+    '    at router (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:47:12)'
+}
+{
+  date: '19-09-2023 09:38',
+  module: 'Server',
+  level: 'error',
+  message: "Cannot destructure property 'userId' of 'req.user' as it is undefined.",
+  stack: "TypeError: Cannot destructure property 'userId' of 'req.user' as it is undefined.\n" +
+    '    at Me (D:\\DEV\\projek-api\\fish\\app\\controller\\user.js:153:17)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\route.js:137:13)\n' +
+    '    at Route.dispatch (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\route.js:112:3)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:281:22\n' +
+    '    at Function.process_params (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:335:12)\n' +
+    '    at next (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at Function.handle (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:174:3)\n' +
+    '    at router (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:47:12)'
+}
+{
+  date: '19-09-2023 09:42',
+  module: 'Server',
+  level: 'error',
+  message: "Cannot destructure property 'user_id' of 'req.user' as it is undefined.",
+  stack: "TypeError: Cannot destructure property 'user_id' of 'req.user' as it is undefined.\n" +
+    '    at Me (D:\\DEV\\projek-api\\fish\\app\\controller\\user.js:153:17)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\route.js:137:13)\n' +
+    '    at Route.dispatch (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\route.js:112:3)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:281:22\n' +
+    '    at Function.process_params (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:335:12)\n' +
+    '    at next (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at Function.handle (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:174:3)\n' +
+    '    at router (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:47:12)'
+}
+{
+  date: '19-09-2023 09:42',
+  module: 'Server',
+  level: 'error',
+  message: "Cannot destructure property 'user_id' of 'req.user' as it is undefined.",
+  stack: "TypeError: Cannot destructure property 'user_id' of 'req.user' as it is undefined.\n" +
+    '    at Me (D:\\DEV\\projek-api\\fish\\app\\controller\\user.js:153:17)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\route.js:137:13)\n' +
+    '    at Route.dispatch (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\route.js:112:3)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:281:22\n' +
+    '    at Function.process_params (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:335:12)\n' +
+    '    at next (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at Function.handle (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:174:3)\n' +
+    '    at router (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:47:12)'
+}
+{
+  date: '19-09-2023 09:42',
+  module: 'Server',
+  level: 'error',
+  message: "Cannot destructure property 'user_id' of 'req.user' as it is undefined.",
+  stack: "TypeError: Cannot destructure property 'user_id' of 'req.user' as it is undefined.\n" +
+    '    at Me (D:\\DEV\\projek-api\\fish\\app\\controller\\user.js:153:17)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\route.js:137:13)\n' +
+    '    at Route.dispatch (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\route.js:112:3)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:281:22\n' +
+    '    at Function.process_params (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:335:12)\n' +
+    '    at next (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at Function.handle (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:174:3)\n' +
+    '    at router (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:47:12)'
+}
+{
+  date: '19-09-2023 09:43',
+  module: 'Server',
+  level: 'error',
+  message: "Cannot read property 'user_id' of undefined",
+  stack: "TypeError: Cannot read property 'user_id' of undefined\n" +
+    '    at Me (D:\\DEV\\projek-api\\fish\\app\\controller\\user.js:153:30)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\route.js:137:13)\n' +
+    '    at Route.dispatch (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\route.js:112:3)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:281:22\n' +
+    '    at Function.process_params (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:335:12)\n' +
+    '    at next (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at Function.handle (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:174:3)\n' +
+    '    at router (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:47:12)'
+}
+{
+  date: '19-09-2023 09:44',
+  module: 'Server',
+  level: 'error',
+  message: "Cannot read property 'user_id' of undefined",
+  stack: "TypeError: Cannot read property 'user_id' of undefined\n" +
+    '    at Me (D:\\DEV\\projek-api\\fish\\app\\controller\\user.js:153:29)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\route.js:137:13)\n' +
+    '    at Route.dispatch (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\route.js:112:3)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:281:22\n' +
+    '    at Function.process_params (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:335:12)\n' +
+    '    at next (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at Function.handle (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:174:3)\n' +
+    '    at router (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:47:12)'
+}
+{
+  date: '19-09-2023 09:55',
+  module: 'Server',
+  level: 'error',
+  message: "Cannot read property 'user_id' of undefined",
+  stack: "TypeError: Cannot read property 'user_id' of undefined\n" +
+    '    at Me (D:\\DEV\\projek-api\\fish\\app\\controller\\user.js:153:29)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\route.js:137:13)\n' +
+    '    at Route.dispatch (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\route.js:112:3)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:281:22\n' +
+    '    at Function.process_params (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:335:12)\n' +
+    '    at next (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at Function.handle (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:174:3)\n' +
+    '    at router (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:47:12)'
+}
+{
+  date: '19-09-2023 09:56',
+  module: 'Server',
+  level: 'error',
+  message: "Cannot read property 'user_id' of undefined",
+  stack: "TypeError: Cannot read property 'user_id' of undefined\n" +
+    '    at Me (D:\\DEV\\projek-api\\fish\\app\\controller\\user.js:155:29)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\route.js:137:13)\n' +
+    '    at Route.dispatch (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\route.js:112:3)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:281:22\n' +
+    '    at Function.process_params (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:335:12)\n' +
+    '    at next (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at Function.handle (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:174:3)\n' +
+    '    at router (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:47:12)'
+}
+{
+  date: '19-09-2023 10:00',
+  module: 'Server',
+  level: 'error',
+  message: 'Your id not found',
+  stack: 'Error: Your id not found\n' +
+    '    at Me (D:\\DEV\\projek-api\\fish\\app\\controller\\user.js:161:42)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:95:5)'
+}
+{
+  date: '19-09-2023 10:00',
+  module: 'Server',
+  level: 'error',
+  message: 'Your id not found',
+  stack: 'Error: Your id not found\n' +
+    '    at Me (D:\\DEV\\projek-api\\fish\\app\\controller\\user.js:161:42)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:95:5)'
+}
+{
+  date: '19-09-2023 10:01',
+  module: 'Server',
+  level: 'error',
+  message: 'Your id not found',
+  stack: 'Error: Your id not found\n' +
+    '    at Me (D:\\DEV\\projek-api\\fish\\app\\controller\\user.js:161:42)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:95:5)'
+}
+{
+  date: '19-09-2023 10:01',
+  module: 'Server',
+  level: 'error',
+  message: 'Your id not found',
+  stack: 'Error: Your id not found\n' +
+    '    at Me (D:\\DEV\\projek-api\\fish\\app\\controller\\user.js:161:42)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:95:5)'
+}
+{
+  date: '19-09-2023 10:01',
+  module: 'Server',
+  level: 'error',
+  message: "Cannot read property 'id' of undefined",
+  stack: "TypeError: Cannot read property 'id' of undefined\n" +
+    '    at Me (D:\\DEV\\projek-api\\fish\\app\\controller\\user.js:153:36)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\route.js:137:13)\n' +
+    '    at Route.dispatch (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\route.js:112:3)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:281:22\n' +
+    '    at Function.process_params (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:335:12)\n' +
+    '    at next (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at Function.handle (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:174:3)\n' +
+    '    at router (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:47:12)'
+}
+{
+  date: '19-09-2023 10:01',
+  module: 'Server',
+  level: 'error',
+  message: 'Your id not found',
+  stack: 'Error: Your id not found\n' +
+    '    at Me (D:\\DEV\\projek-api\\fish\\app\\controller\\user.js:161:42)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:95:5)'
+}
+{
+  date: '19-09-2023 10:07',
+  module: 'Server',
+  level: 'error',
+  message: 'Your id not found',
+  stack: 'Error: Your id not found\n' +
+    '    at Me (D:\\DEV\\projek-api\\fish\\app\\controller\\user.js:161:42)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:95:5)'
+}
+{
+  date: '19-09-2023 10:21',
+  module: 'Server',
+  level: 'error',
+  message: 'Cast to ObjectId failed for value "me" (type string) at path "_id" for model "User"',
+  stack: 'CastError: Cast to ObjectId failed for value "me" (type string) at path "_id" for model "User"\n' +
+    '    at ObjectId.cast (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\schema\\objectid.js:250:11)\n' +
+    '    at ObjectId.SchemaType.applySetters (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\schematype.js:1220:12)\n' +
+    '    at ObjectId.SchemaType.castForQuery (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\schematype.js:1632:15)\n' +
+    '    at cast (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\cast.js:356:32)\n' +
+    '    at model.Query.Query.cast (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\query.js:4910:12)\n' +
+    '    at model.Query.Query._castConditions (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\query.js:2232:10)\n' +
+    '    at model.Query._findOne (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\query.js:2519:8)\n' +
+    '    at model.Query.exec (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\query.js:4429:28)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n' +
+    '    at async FindById (D:\\DEV\\projek-api\\fish\\app\\controller\\user.js:87:22)'
+}
+{
+  date: '19-09-2023 10:21',
+  module: 'Server',
+  level: 'error',
+  message: 'Cast to ObjectId failed for value "me" (type string) at path "_id" for model "User"',
+  stack: 'CastError: Cast to ObjectId failed for value "me" (type string) at path "_id" for model "User"\n' +
+    '    at ObjectId.cast (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\schema\\objectid.js:250:11)\n' +
+    '    at ObjectId.SchemaType.applySetters (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\schematype.js:1220:12)\n' +
+    '    at ObjectId.SchemaType.castForQuery (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\schematype.js:1632:15)\n' +
+    '    at cast (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\cast.js:356:32)\n' +
+    '    at model.Query.Query.cast (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\query.js:4910:12)\n' +
+    '    at model.Query.Query._castConditions (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\query.js:2232:10)\n' +
+    '    at model.Query._findOne (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\query.js:2519:8)\n' +
+    '    at model.Query.exec (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\query.js:4429:28)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n' +
+    '    at async FindById (D:\\DEV\\projek-api\\fish\\app\\controller\\user.js:87:22)'
+}
+{
+  date: '19-09-2023 10:22',
+  module: 'Server',
+  level: 'error',
+  message: 'Cast to ObjectId failed for value "me" (type string) at path "_id" for model "User"',
+  stack: 'CastError: Cast to ObjectId failed for value "me" (type string) at path "_id" for model "User"\n' +
+    '    at ObjectId.cast (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\schema\\objectid.js:250:11)\n' +
+    '    at ObjectId.SchemaType.applySetters (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\schematype.js:1220:12)\n' +
+    '    at ObjectId.SchemaType.castForQuery (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\schematype.js:1632:15)\n' +
+    '    at cast (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\cast.js:356:32)\n' +
+    '    at model.Query.Query.cast (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\query.js:4910:12)\n' +
+    '    at model.Query.Query._castConditions (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\query.js:2232:10)\n' +
+    '    at model.Query._findOne (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\query.js:2519:8)\n' +
+    '    at model.Query.exec (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\query.js:4429:28)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n' +
+    '    at async FindById (D:\\DEV\\projek-api\\fish\\app\\controller\\user.js:87:22)'
+}
+{
+  date: '19-09-2023 10:23',
+  module: 'Server',
+  level: 'error',
+  message: 'Cast to ObjectId failed for value "me" (type string) at path "_id" for model "User"',
+  stack: 'CastError: Cast to ObjectId failed for value "me" (type string) at path "_id" for model "User"\n' +
+    '    at ObjectId.cast (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\schema\\objectid.js:250:11)\n' +
+    '    at ObjectId.SchemaType.applySetters (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\schematype.js:1220:12)\n' +
+    '    at ObjectId.SchemaType.castForQuery (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\schematype.js:1632:15)\n' +
+    '    at cast (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\cast.js:356:32)\n' +
+    '    at model.Query.Query.cast (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\query.js:4910:12)\n' +
+    '    at model.Query.Query._castConditions (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\query.js:2232:10)\n' +
+    '    at model.Query._findOne (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\query.js:2519:8)\n' +
+    '    at model.Query.exec (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\query.js:4429:28)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n' +
+    '    at async FindById (D:\\DEV\\projek-api\\fish\\app\\controller\\user.js:87:22)'
+}
+{
+  date: '19-09-2023 10:54',
+  module: 'Server',
+  level: 'error',
+  message: 'Product not found',
+  stack: 'Error: Product not found\n' +
+    '    at Index (D:\\DEV\\projek-api\\fish\\app\\controller\\product.js:12:42)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:95:5)'
+}
+{
+  date: '19-09-2023 10:56',
+  module: 'Server',
+  level: 'error',
+  message: 'forbidden',
+  stack: 'Error: forbidden\n' +
+    '    at verifyToken (D:\\DEV\\projek-api\\fish\\app\\passports\\jwt.js:11:42)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at trim_prefix (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:317:13)\n' +
+    '    at D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:284:7\n' +
+    '    at Function.process_params (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:335:12)\n' +
+    '    at next (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at Function.handle (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:174:3)\n' +
+    '    at router (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:47:12)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at trim_prefix (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:317:13)'
+}
+{
+  date: '19-09-2023 10:56',
+  module: 'Server',
+  level: 'error',
+  message: 'Product validation failed: range_stock: Path `range_stock` is required., detail_location: Path `detail_location` is required., serial_number: Path `serial_number` is required.',
+  stack: 'ValidationError: Product validation failed: range_stock: Path `range_stock` is required., detail_location: Path `detail_location` is required., serial_number: Path `serial_number` is required.\n' +
+    '    at model.Document.invalidate (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\document.js:3162:32)\n' +
+    '    at D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\document.js:2955:17\n' +
+    '    at D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\schematype.js:1368:9\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:77:11)'
+}
+{
+  date: '19-09-2023 10:57',
+  module: 'Server',
+  level: 'error',
+  message: 'Product validation failed: detail_location: Path `detail_location` is required., serial_number: Path `serial_number` is required.',
+  stack: 'ValidationError: Product validation failed: detail_location: Path `detail_location` is required., serial_number: Path `serial_number` is required.\n' +
+    '    at model.Document.invalidate (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\document.js:3162:32)\n' +
+    '    at D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\document.js:2955:17\n' +
+    '    at D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\schematype.js:1368:9\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:77:11)'
+}
+{
+  date: '19-09-2023 10:58',
+  module: 'Server',
+  level: 'error',
+  message: 'Product validation failed: serial_number: Path `serial_number` is required.',
+  stack: 'ValidationError: Product validation failed: serial_number: Path `serial_number` is required.\n' +
+    '    at model.Document.invalidate (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\document.js:3162:32)\n' +
+    '    at D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\document.js:2955:17\n' +
+    '    at D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\schematype.js:1368:9\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:77:11)'
+}
+{
+  date: '19-09-2023 10:58',
+  module: 'Server',
+  level: 'error',
+  message: 'Product validation failed: serial_number: Path `serial_number` is required.',
+  stack: 'ValidationError: Product validation failed: serial_number: Path `serial_number` is required.\n' +
+    '    at model.Document.invalidate (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\document.js:3162:32)\n' +
+    '    at D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\document.js:2955:17\n' +
+    '    at D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\schematype.js:1368:9\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:77:11)'
+}
+{
+  date: '19-09-2023 10:58',
+  module: 'Server',
+  level: 'error',
+  message: 'forbidden',
+  stack: 'Error: forbidden\n' +
+    '    at verifyToken (D:\\DEV\\projek-api\\fish\\app\\passports\\jwt.js:11:42)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at trim_prefix (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:317:13)\n' +
+    '    at D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:284:7\n' +
+    '    at Function.process_params (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:335:12)\n' +
+    '    at next (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at Function.handle (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:174:3)\n' +
+    '    at router (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:47:12)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at trim_prefix (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:317:13)'
+}
+{
+  date: '19-09-2023 10:59',
+  module: 'Server',
+  level: 'error',
+  message: 'forbidden',
+  stack: 'Error: forbidden\n' +
+    '    at verifyToken (D:\\DEV\\projek-api\\fish\\app\\passports\\jwt.js:11:42)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at trim_prefix (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:317:13)\n' +
+    '    at D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:284:7\n' +
+    '    at Function.process_params (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:335:12)\n' +
+    '    at next (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at Function.handle (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:174:3)\n' +
+    '    at router (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:47:12)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at trim_prefix (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:317:13)'
+}
+{
+  date: '19-09-2023 11:00',
+  module: 'Server',
+  level: 'error',
+  message: 'forbidden',
+  stack: 'Error: forbidden\n' +
+    '    at verifyToken (D:\\DEV\\projek-api\\fish\\app\\passports\\jwt.js:11:42)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at trim_prefix (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:317:13)\n' +
+    '    at D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:284:7\n' +
+    '    at Function.process_params (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:335:12)\n' +
+    '    at next (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at Function.handle (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:174:3)\n' +
+    '    at router (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:47:12)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at trim_prefix (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:317:13)'
+}
+{
+  date: '19-09-2023 11:01',
+  module: 'Server',
+  level: 'error',
+  message: 'forbidden',
+  stack: 'Error: forbidden\n' +
+    '    at verifyToken (D:\\DEV\\projek-api\\fish\\app\\passports\\jwt.js:11:42)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at trim_prefix (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:317:13)\n' +
+    '    at D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:284:7\n' +
+    '    at Function.process_params (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:335:12)\n' +
+    '    at next (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at Function.handle (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:174:3)\n' +
+    '    at router (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:47:12)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at trim_prefix (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:317:13)'
+}
+{
+  date: '19-09-2023 11:01',
+  module: 'Server',
+  level: 'error',
+  message: 'product.delete is not a function',
+  stack: 'TypeError: product.delete is not a function\n' +
+    '    at Delete (D:\\DEV\\projek-api\\fish\\app\\controller\\product.js:91:29)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:95:5)'
+}
+{
+  date: '19-09-2023 11:02',
+  module: 'Server',
+  level: 'error',
+  message: 'Product not found',
+  stack: 'Error: Product not found\n' +
+    '    at Index (D:\\DEV\\projek-api\\fish\\app\\controller\\product.js:12:42)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:95:5)'
+}
+{
+  date: '19-09-2023 11:11',
+  module: 'Server',
+  level: 'error',
+  message: 'forbidden',
+  stack: 'Error: forbidden\n' +
+    '    at verifyToken (D:\\DEV\\projek-api\\fish\\app\\passports\\jwt.js:11:42)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at trim_prefix (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:317:13)\n' +
+    '    at D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:284:7\n' +
+    '    at Function.process_params (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:335:12)\n' +
+    '    at next (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at Function.handle (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:174:3)\n' +
+    '    at router (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:47:12)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at trim_prefix (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:317:13)'
+}
+{
+  date: '19-09-2023 11:14',
+  module: 'Server',
+  level: 'error',
+  message: 'forbidden',
+  stack: 'Error: forbidden\n' +
+    '    at verifyToken (D:\\DEV\\projek-api\\fish\\app\\passports\\jwt.js:11:42)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at trim_prefix (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:317:13)\n' +
+    '    at D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:284:7\n' +
+    '    at Function.process_params (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:335:12)\n' +
+    '    at next (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at Function.handle (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:174:3)\n' +
+    '    at router (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:47:12)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at trim_prefix (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:317:13)'
+}
+{
+  date: '19-09-2023 11:19',
+  module: 'Server',
+  level: 'error',
+  message: 'forbidden',
+  stack: 'Error: forbidden\n' +
+    '    at verifyToken (D:\\DEV\\projek-api\\fish\\app\\passports\\jwt.js:11:42)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at trim_prefix (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:317:13)\n' +
+    '    at D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:284:7\n' +
+    '    at Function.process_params (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:335:12)\n' +
+    '    at next (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at Function.handle (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:174:3)\n' +
+    '    at router (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:47:12)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at trim_prefix (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:317:13)'
+}
+{
+  date: '19-09-2023 11:19',
+  module: 'Server',
+  level: 'error',
+  message: 'Schedule validation failed: id_product: Cast to ObjectId failed for value "" (type string) at path "id_product" because of "BSONError", schedule_date: Cast to date failed for value "44/11/2222" (type string) at path "schedule_date", portion: Cast to Number failed for value "ss" (type string) at path "portion"',
+  stack: 'ValidationError: Schedule validation failed: id_product: Cast to ObjectId failed for value "" (type string) at path "id_product" because of "BSONError", schedule_date: Cast to date failed for value "44/11/2222" (type string) at path "schedule_date", portion: Cast to Number failed for value "ss" (type string) at path "portion"\n' +
+    '    at model.Document.invalidate (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\document.js:3162:32)\n' +
+    '    at model.$set (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\document.js:1453:12)\n' +
+    '    at model.$set (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\document.js:1113:16)\n' +
+    '    at model.Document (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\document.js:164:12)\n' +
+    '    at model.Model (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\model.js:123:12)\n' +
+    '    at new model (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\model.js:4702:15)\n' +
+    '    at D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\model.js:2913:18\n' +
+    '    at Array.map (<anonymous>)\n' +
+    '    at Function.create (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\model.js:2902:30)\n' +
+    '    at Create (D:\\DEV\\projek-api\\fish\\app\\controller\\schedule.js:15:24)'
+}
+{
+  date: '19-09-2023 11:20',
+  module: 'Server',
+  level: 'error',
+  message: 'Schedule validation failed: schedule_date: Cast to date failed for value "44/11/2222" (type string) at path "schedule_date", portion: Cast to Number failed for value "ss" (type string) at path "portion"',
+  stack: 'ValidationError: Schedule validation failed: schedule_date: Cast to date failed for value "44/11/2222" (type string) at path "schedule_date", portion: Cast to Number failed for value "ss" (type string) at path "portion"\n' +
+    '    at model.Document.invalidate (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\document.js:3162:32)\n' +
+    '    at model.$set (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\document.js:1453:12)\n' +
+    '    at model.$set (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\document.js:1113:16)\n' +
+    '    at model.Document (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\document.js:164:12)\n' +
+    '    at model.Model (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\model.js:123:12)\n' +
+    '    at new model (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\model.js:4702:15)\n' +
+    '    at D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\model.js:2913:18\n' +
+    '    at Array.map (<anonymous>)\n' +
+    '    at Function.create (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\model.js:2902:30)\n' +
+    '    at Create (D:\\DEV\\projek-api\\fish\\app\\controller\\schedule.js:15:24)'
+}
+{
+  date: '19-09-2023 11:20',
+  module: 'Server',
+  level: 'error',
+  message: 'Schedule validation failed: schedule_date: Cast to date failed for value "21/11/2222" (type string) at path "schedule_date", portion: Cast to Number failed for value "ss" (type string) at path "portion"',
+  stack: 'ValidationError: Schedule validation failed: schedule_date: Cast to date failed for value "21/11/2222" (type string) at path "schedule_date", portion: Cast to Number failed for value "ss" (type string) at path "portion"\n' +
+    '    at model.Document.invalidate (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\document.js:3162:32)\n' +
+    '    at model.$set (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\document.js:1453:12)\n' +
+    '    at model.$set (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\document.js:1113:16)\n' +
+    '    at model.Document (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\document.js:164:12)\n' +
+    '    at model.Model (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\model.js:123:12)\n' +
+    '    at new model (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\model.js:4702:15)\n' +
+    '    at D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\model.js:2913:18\n' +
+    '    at Array.map (<anonymous>)\n' +
+    '    at Function.create (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\model.js:2902:30)\n' +
+    '    at Create (D:\\DEV\\projek-api\\fish\\app\\controller\\schedule.js:15:24)'
+}
+{
+  date: '19-09-2023 11:20',
+  module: 'Server',
+  level: 'error',
+  message: 'Schedule validation failed: schedule_date: Cast to date failed for value "21/11/2222" (type string) at path "schedule_date"',
+  stack: 'ValidationError: Schedule validation failed: schedule_date: Cast to date failed for value "21/11/2222" (type string) at path "schedule_date"\n' +
+    '    at model.Document.invalidate (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\document.js:3162:32)\n' +
+    '    at model.$set (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\document.js:1453:12)\n' +
+    '    at model.$set (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\document.js:1113:16)\n' +
+    '    at model.Document (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\document.js:164:12)\n' +
+    '    at model.Model (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\model.js:123:12)\n' +
+    '    at new model (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\model.js:4702:15)\n' +
+    '    at D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\model.js:2913:18\n' +
+    '    at Array.map (<anonymous>)\n' +
+    '    at Function.create (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\model.js:2902:30)\n' +
+    '    at Create (D:\\DEV\\projek-api\\fish\\app\\controller\\schedule.js:15:24)'
+}
+{
+  date: '19-09-2023 11:21',
+  module: 'Server',
+  level: 'error',
+  message: 'Schedule validation failed: schedule_date: Cast to date failed for value "21-11-2222" (type string) at path "schedule_date"',
+  stack: 'ValidationError: Schedule validation failed: schedule_date: Cast to date failed for value "21-11-2222" (type string) at path "schedule_date"\n' +
+    '    at model.Document.invalidate (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\document.js:3162:32)\n' +
+    '    at model.$set (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\document.js:1453:12)\n' +
+    '    at model.$set (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\document.js:1113:16)\n' +
+    '    at model.Document (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\document.js:164:12)\n' +
+    '    at model.Model (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\model.js:123:12)\n' +
+    '    at new model (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\model.js:4702:15)\n' +
+    '    at D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\model.js:2913:18\n' +
+    '    at Array.map (<anonymous>)\n' +
+    '    at Function.create (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\model.js:2902:30)\n' +
+    '    at Create (D:\\DEV\\projek-api\\fish\\app\\controller\\schedule.js:15:24)'
+}
+{
+  date: '19-09-2023 11:22',
+  module: 'Server',
+  level: 'error',
+  message: 'forbidden',
+  stack: 'Error: forbidden\n' +
+    '    at verifyToken (D:\\DEV\\projek-api\\fish\\app\\passports\\jwt.js:11:42)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at trim_prefix (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:317:13)\n' +
+    '    at D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:284:7\n' +
+    '    at Function.process_params (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:335:12)\n' +
+    '    at next (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at Function.handle (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:174:3)\n' +
+    '    at router (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:47:12)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at trim_prefix (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:317:13)'
+}
+{
+  date: '19-09-2023 11:22',
+  module: 'Server',
+  level: 'error',
+  message: 'forbidden',
+  stack: 'Error: forbidden\n' +
+    '    at verifyToken (D:\\DEV\\projek-api\\fish\\app\\passports\\jwt.js:11:42)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at trim_prefix (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:317:13)\n' +
+    '    at D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:284:7\n' +
+    '    at Function.process_params (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:335:12)\n' +
+    '    at next (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at Function.handle (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:174:3)\n' +
+    '    at router (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:47:12)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at trim_prefix (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:317:13)'
+}
+{
+  date: '19-09-2023 11:22',
+  module: 'Server',
+  level: 'error',
+  message: 'forbidden',
+  stack: 'Error: forbidden\n' +
+    '    at verifyToken (D:\\DEV\\projek-api\\fish\\app\\passports\\jwt.js:11:42)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at trim_prefix (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:317:13)\n' +
+    '    at D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:284:7\n' +
+    '    at Function.process_params (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:335:12)\n' +
+    '    at next (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at Function.handle (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:174:3)\n' +
+    '    at router (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:47:12)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at trim_prefix (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:317:13)'
+}
+{
+  date: '19-09-2023 11:23',
+  module: 'Server',
+  level: 'error',
+  message: 'forbidden',
+  stack: 'Error: forbidden\n' +
+    '    at verifyToken (D:\\DEV\\projek-api\\fish\\app\\passports\\jwt.js:11:42)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at trim_prefix (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:317:13)\n' +
+    '    at D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:284:7\n' +
+    '    at Function.process_params (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:335:12)\n' +
+    '    at next (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at Function.handle (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:174:3)\n' +
+    '    at router (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:47:12)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at trim_prefix (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:317:13)'
+}
