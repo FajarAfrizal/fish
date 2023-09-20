@@ -150,7 +150,6 @@ const Delete = async (req, res, next) => {
 
 const Me = async (req, res, next) => {
     try {
-        console.log('ip', req.user)
 
         const id = req.user.user_id;
 

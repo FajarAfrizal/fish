@@ -2,12 +2,18 @@
 const mongoose = require('mongoose');
 const { model, Schema } = mongoose;
 
-const productSchema =  Schema({
+
+
+const productSchema = Schema({
     user_id: {
         type: mongoose.Types.ObjectId,
         ref: 'User',
         required: true
     },
+    schedule_id: [{
+        type: mongoose.Types.ObjectId,
+        ref: 'Schedule',
+    }],
     type_product: {
         type: String,
         required: true
@@ -17,17 +23,17 @@ const productSchema =  Schema({
         required: true
     },
     detail_location: {
-        type : String,
-        required : true
+        type: String,
+        required: true
     },
     range_stock: {
         type: Number,
         required: true
     }
 },
-{
-    timestamps: true,
-})
+    {
+        timestamps: true,
+    })
 
 const Product = model('Product', productSchema);
 

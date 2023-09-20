@@ -2190,3 +2190,30 @@
     '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
     '    at trim_prefix (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:317:13)'
 }
+{
+  date: '20-09-2023 12:24',
+  module: 'Server',
+  level: 'error',
+  message: 'token invalid',
+  stack: 'Error: token invalid\n' +
+    '    at verifyToken (D:\\DEV\\projek-api\\fish\\app\\passports\\jwt.js:24:44)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:95:5)'
+}
+{
+  date: '20-09-2023 12:25',
+  module: 'Server',
+  level: 'error',
+  message: 'token invalid',
+  stack: 'Error: token invalid\n' +
+    '    at verifyToken (D:\\DEV\\projek-api\\fish\\app\\passports\\jwt.js:24:44)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:95:5)'
+}
+{
+  date: '20-09-2023 12:29',
+  module: 'Server',
+  level: 'error',
+  message: 'token invalid',
+  stack: 'Error: token invalid\n' +
+    '    at verifyToken (D:\\DEV\\projek-api\\fish\\app\\passports\\jwt.js:24:44)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:95:5)'
+}

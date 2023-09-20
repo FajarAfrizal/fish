@@ -1,12 +1,15 @@
 const flaverr = require('flaverr');
 const {
-    Product
+    Product,
+    Schedule
 } = require('../model');
 const httpRes = require('../helpers/httpRes');
 
 const Index = async (req, res, next) => {
     try {
-        const product = await Product.find()
+        const product = await Product.find().populate({
+            path: 'schedule',
+        })
 
         if (!product.length){
             throw flaverr('E_NOT_FOUND', Error('Product not found'))
@@ -92,6 +95,31 @@ const Delete = async (req, res, next) => {
 
         return httpRes(res, 200)
     } catch (err){
+        return next(err)
+    }
+}
+
+const CreateScheduleProduct = async (req, res, next) => {
+    try {
+        const { productId } = req.params;
+        const { schedule_date,  portion, status } = req.body;
+
+        const product = await Product.findById(productId);
+
+        if (!product) {
+            throw flaverr('E_NOT_FOUND', Error('product not found'));
+        }
+
+        const schedule = new Schedule({ schedule_date, portion, status });
+
+        await Schedule.save();
+
+        product.schedule.push(schedule.id);
+
+        await product.save();
+
+        return httpRes(res, 201)
+    } catch (err) {
         return next(err)
     }
 }
