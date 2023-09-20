@@ -10,6 +10,8 @@ Route.delete('/:id', Product.Delete);
 
 Route.post('/add-schedule/:productId', Product.CreateScheduleProduct);
 
+Route.put('/update-schedule-status/:id', Product.updateStatusSchedule);
+
 const routeProps = {
     Route,
     auth: true,

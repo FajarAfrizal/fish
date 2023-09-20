@@ -2217,3 +2217,380 @@
     '    at verifyToken (D:\\DEV\\projek-api\\fish\\app\\passports\\jwt.js:24:44)\n' +
     '    at processTicksAndRejections (internal/process/task_queues.js:95:5)'
 }
+{
+  date: '20-09-2023 12:55',
+  module: 'Server',
+  level: 'error',
+  message: 'token invalid',
+  stack: 'Error: token invalid\n' +
+    '    at verifyToken (D:\\DEV\\projek-api\\fish\\app\\passports\\jwt.js:24:44)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:95:5)'
+}
+{
+  date: '20-09-2023 12:55',
+  module: 'Server',
+  level: 'error',
+  message: 'product not found',
+  stack: 'Error: product not found\n' +
+    '    at CreateScheduleProduct (D:\\DEV\\projek-api\\fish\\app\\controller\\product.js:110:42)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:95:5)'
+}
+{
+  date: '20-09-2023 12:55',
+  module: 'Server',
+  level: 'error',
+  message: 'product not found',
+  stack: 'Error: product not found\n' +
+    '    at CreateScheduleProduct (D:\\DEV\\projek-api\\fish\\app\\controller\\product.js:110:42)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:95:5)'
+}
+{
+  date: '20-09-2023 12:56',
+  module: 'Server',
+  level: 'error',
+  message: 'token invalid',
+  stack: 'Error: token invalid\n' +
+    '    at verifyToken (D:\\DEV\\projek-api\\fish\\app\\passports\\jwt.js:24:44)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:95:5)'
+}
+{
+  date: '20-09-2023 12:56',
+  module: 'Server',
+  level: 'error',
+  message: 'Cannot populate path `schedule` because it is not in your schema. Set the `strictPopulate` option to false to override.',
+  stack: 'StrictPopulateError: Cannot populate path `schedule` because it is not in your schema. Set the `strictPopulate` option to false to override.\n' +
+    '    at getModelsMapForPopulate (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\helpers\\populate\\getModelsMapForPopulate.js:49:12)\n' +
+    '    at populate (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\model.js:4338:21)\n' +
+    '    at _populate (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\model.js:4298:5)\n' +
+    '    at D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\model.js:4270:5\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Function.populate (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\model.js:4269:10)\n' +
+    '    at model.Query._find (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\query.js:2316:20)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n' +
+    '    at async model.Query.exec (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\query.js:4429:11)\n' +
+    '    at async Index (D:\\DEV\\projek-api\\fish\\app\\controller\\product.js:10:25)'
+}
+{
+  date: '20-09-2023 12:56',
+  module: 'Server',
+  level: 'error',
+  message: 'token invalid',
+  stack: 'Error: token invalid\n' +
+    '    at verifyToken (D:\\DEV\\projek-api\\fish\\app\\passports\\jwt.js:24:44)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:95:5)'
+}
+{
+  date: '20-09-2023 12:56',
+  module: 'Server',
+  level: 'error',
+  message: 'Cannot populate path `schedule` because it is not in your schema. Set the `strictPopulate` option to false to override.',
+  stack: 'StrictPopulateError: Cannot populate path `schedule` because it is not in your schema. Set the `strictPopulate` option to false to override.\n' +
+    '    at getModelsMapForPopulate (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\helpers\\populate\\getModelsMapForPopulate.js:49:12)\n' +
+    '    at populate (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\model.js:4338:21)\n' +
+    '    at _populate (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\model.js:4298:5)\n' +
+    '    at D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\model.js:4270:5\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Function.populate (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\model.js:4269:10)\n' +
+    '    at model.Query._find (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\query.js:2316:20)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n' +
+    '    at async model.Query.exec (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\query.js:4429:11)\n' +
+    '    at async Index (D:\\DEV\\projek-api\\fish\\app\\controller\\product.js:10:25)'
+}
+{
+  date: '20-09-2023 12:56',
+  module: 'Server',
+  level: 'error',
+  message: 'Cannot populate path `schedule` because it is not in your schema. Set the `strictPopulate` option to false to override.',
+  stack: 'StrictPopulateError: Cannot populate path `schedule` because it is not in your schema. Set the `strictPopulate` option to false to override.\n' +
+    '    at getModelsMapForPopulate (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\helpers\\populate\\getModelsMapForPopulate.js:49:12)\n' +
+    '    at populate (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\model.js:4338:21)\n' +
+    '    at _populate (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\model.js:4298:5)\n' +
+    '    at D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\model.js:4270:5\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Function.populate (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\model.js:4269:10)\n' +
+    '    at model.Query._find (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\query.js:2316:20)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n' +
+    '    at async model.Query.exec (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\query.js:4429:11)\n' +
+    '    at async Index (D:\\DEV\\projek-api\\fish\\app\\controller\\product.js:10:25)'
+}
+{
+  date: '20-09-2023 12:57',
+  module: 'Server',
+  level: 'error',
+  message: 'Cannot populate path `Schedule` because it is not in your schema. Set the `strictPopulate` option to false to override.',
+  stack: 'StrictPopulateError: Cannot populate path `Schedule` because it is not in your schema. Set the `strictPopulate` option to false to override.\n' +
+    '    at getModelsMapForPopulate (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\helpers\\populate\\getModelsMapForPopulate.js:49:12)\n' +
+    '    at populate (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\model.js:4338:21)\n' +
+    '    at _populate (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\model.js:4298:5)\n' +
+    '    at D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\model.js:4270:5\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Function.populate (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\model.js:4269:10)\n' +
+    '    at model.Query._find (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\query.js:2316:20)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n' +
+    '    at async model.Query.exec (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\query.js:4429:11)\n' +
+    '    at async Index (D:\\DEV\\projek-api\\fish\\app\\controller\\product.js:10:25)'
+}
+{
+  date: '20-09-2023 12:57',
+  module: 'Server',
+  level: 'error',
+  message: 'Cannot populate path `Schedule` because it is not in your schema. Set the `strictPopulate` option to false to override.',
+  stack: 'StrictPopulateError: Cannot populate path `Schedule` because it is not in your schema. Set the `strictPopulate` option to false to override.\n' +
+    '    at getModelsMapForPopulate (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\helpers\\populate\\getModelsMapForPopulate.js:49:12)\n' +
+    '    at populate (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\model.js:4338:21)\n' +
+    '    at _populate (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\model.js:4298:5)\n' +
+    '    at D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\model.js:4270:5\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Function.populate (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\model.js:4269:10)\n' +
+    '    at model.Query._find (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\query.js:2316:20)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n' +
+    '    at async model.Query.exec (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\query.js:4429:11)\n' +
+    '    at async Index (D:\\DEV\\projek-api\\fish\\app\\controller\\product.js:10:25)'
+}
+{
+  date: '20-09-2023 12:57',
+  module: 'Server',
+  level: 'error',
+  message: 'Cannot populate path `Schedule` because it is not in your schema. Set the `strictPopulate` option to false to override.',
+  stack: 'StrictPopulateError: Cannot populate path `Schedule` because it is not in your schema. Set the `strictPopulate` option to false to override.\n' +
+    '    at getModelsMapForPopulate (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\helpers\\populate\\getModelsMapForPopulate.js:49:12)\n' +
+    '    at populate (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\model.js:4338:21)\n' +
+    '    at _populate (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\model.js:4298:5)\n' +
+    '    at D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\model.js:4270:5\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Function.populate (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\model.js:4269:10)\n' +
+    '    at model.Query._find (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\query.js:2316:20)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n' +
+    '    at async model.Query.exec (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\query.js:4429:11)\n' +
+    '    at async Index (D:\\DEV\\projek-api\\fish\\app\\controller\\product.js:10:25)'
+}
+{
+  date: '20-09-2023 13:01',
+  module: 'Server',
+  level: 'error',
+  message: 'token invalid',
+  stack: 'Error: token invalid\n' +
+    '    at verifyToken (D:\\DEV\\projek-api\\fish\\app\\passports\\jwt.js:24:44)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:95:5)'
+}
+{
+  date: '20-09-2023 13:01',
+  module: 'Server',
+  level: 'error',
+  message: 'token invalid',
+  stack: 'Error: token invalid\n' +
+    '    at verifyToken (D:\\DEV\\projek-api\\fish\\app\\passports\\jwt.js:24:44)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:95:5)'
+}
+{
+  date: '20-09-2023 13:01',
+  module: 'Server',
+  level: 'error',
+  message: 'Cannot populate path `Schedule` because it is not in your schema. Set the `strictPopulate` option to false to override.',
+  stack: 'StrictPopulateError: Cannot populate path `Schedule` because it is not in your schema. Set the `strictPopulate` option to false to override.\n' +
+    '    at getModelsMapForPopulate (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\helpers\\populate\\getModelsMapForPopulate.js:49:12)\n' +
+    '    at populate (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\model.js:4338:21)\n' +
+    '    at _populate (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\model.js:4298:5)\n' +
+    '    at D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\model.js:4270:5\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at Function.populate (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\model.js:4269:10)\n' +
+    '    at model.Query._find (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\query.js:2316:20)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n' +
+    '    at async model.Query.exec (D:\\DEV\\projek-api\\fish\\node_modules\\mongoose\\lib\\query.js:4429:11)\n' +
+    '    at async Index (D:\\DEV\\projek-api\\fish\\app\\controller\\product.js:10:25)'
+}
+{
+  date: '20-09-2023 13:03',
+  module: 'Server',
+  level: 'error',
+  message: 'Schedule.save is not a function',
+  stack: 'TypeError: Schedule.save is not a function\n' +
+    '    at CreateScheduleProduct (D:\\DEV\\projek-api\\fish\\app\\controller\\product.js:115:24)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:95:5)'
+}
+{
+  date: '20-09-2023 13:04',
+  module: 'Server',
+  level: 'error',
+  message: 'Schedule.save is not a function',
+  stack: 'TypeError: Schedule.save is not a function\n' +
+    '    at CreateScheduleProduct (D:\\DEV\\projek-api\\fish\\app\\controller\\product.js:115:24)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:95:5)'
+}
+{
+  date: '20-09-2023 13:05',
+  module: 'Server',
+  level: 'error',
+  message: "Cannot read property 'push' of undefined",
+  stack: "TypeError: Cannot read property 'push' of undefined\n" +
+    '    at CreateScheduleProduct (D:\\DEV\\projek-api\\fish\\app\\controller\\product.js:117:26)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:95:5)'
+}
+{
+  date: '20-09-2023 13:05',
+  module: 'Server',
+  level: 'error',
+  message: "Cannot read property 'push' of undefined",
+  stack: "TypeError: Cannot read property 'push' of undefined\n" +
+    '    at CreateScheduleProduct (D:\\DEV\\projek-api\\fish\\app\\controller\\product.js:117:26)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:95:5)'
+}
+{
+  date: '20-09-2023 13:05',
+  module: 'Server',
+  level: 'error',
+  message: "Cannot read property 'push' of undefined",
+  stack: "TypeError: Cannot read property 'push' of undefined\n" +
+    '    at CreateScheduleProduct (D:\\DEV\\projek-api\\fish\\app\\controller\\product.js:117:26)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:95:5)'
+}
+{
+  date: '20-09-2023 13:06',
+  module: 'Server',
+  level: 'error',
+  message: "Cannot read property 'push' of undefined",
+  stack: "TypeError: Cannot read property 'push' of undefined\n" +
+    '    at CreateScheduleProduct (D:\\DEV\\projek-api\\fish\\app\\controller\\product.js:117:26)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:95:5)'
+}
+{
+  date: '20-09-2023 13:07',
+  module: 'Server',
+  level: 'error',
+  message: "Cannot read property 'push' of undefined",
+  stack: "TypeError: Cannot read property 'push' of undefined\n" +
+    '    at CreateScheduleProduct (D:\\DEV\\projek-api\\fish\\app\\controller\\product.js:116:26)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:95:5)'
+}
+{
+  date: '20-09-2023 13:07',
+  module: 'Server',
+  level: 'error',
+  message: 'Operation `users.findOne()` buffering timed out after 10000ms',
+  stack: 'Error: Operation `users.findOne()` buffering timed out after 10000ms\n' +
+    '    at verifyToken (D:\\DEV\\projek-api\\fish\\app\\passports\\jwt.js:24:44)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:95:5)'
+}
+{
+  date: '20-09-2023 13:07',
+  module: 'Server',
+  level: 'error',
+  message: "Cannot read property 'push' of undefined",
+  stack: "TypeError: Cannot read property 'push' of undefined\n" +
+    '    at CreateScheduleProduct (D:\\DEV\\projek-api\\fish\\app\\controller\\product.js:116:26)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:95:5)'
+}
+{
+  date: '20-09-2023 13:08',
+  module: 'Server',
+  level: 'error',
+  message: "Cannot read property 'push' of undefined",
+  stack: "TypeError: Cannot read property 'push' of undefined\n" +
+    '    at CreateScheduleProduct (D:\\DEV\\projek-api\\fish\\app\\controller\\product.js:116:26)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:95:5)'
+}
+{
+  date: '20-09-2023 13:08',
+  module: 'Server',
+  level: 'error',
+  message: "Cannot read property 'push' of undefined",
+  stack: "TypeError: Cannot read property 'push' of undefined\n" +
+    '    at CreateScheduleProduct (D:\\DEV\\projek-api\\fish\\app\\controller\\product.js:116:26)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:95:5)'
+}
+{
+  date: '20-09-2023 13:08',
+  module: 'Server',
+  level: 'error',
+  message: "Cannot read property 'push' of undefined",
+  stack: "TypeError: Cannot read property 'push' of undefined\n" +
+    '    at CreateScheduleProduct (D:\\DEV\\projek-api\\fish\\app\\controller\\product.js:116:26)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:95:5)'
+}
+{
+  date: '20-09-2023 13:10',
+  module: 'Server',
+  level: 'error',
+  message: "Cannot read property 'push' of undefined",
+  stack: "TypeError: Cannot read property 'push' of undefined\n" +
+    '    at CreateScheduleProduct (D:\\DEV\\projek-api\\fish\\app\\controller\\product.js:116:26)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:95:5)'
+}
+{
+  date: '20-09-2023 13:11',
+  module: 'Server',
+  level: 'error',
+  message: "Cannot read property 'push' of undefined",
+  stack: "TypeError: Cannot read property 'push' of undefined\n" +
+    '    at CreateScheduleProduct (D:\\DEV\\projek-api\\fish\\app\\controller\\product.js:115:38)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:95:5)'
+}
+{
+  date: '20-09-2023 13:12',
+  module: 'Server',
+  level: 'error',
+  message: "Cannot read property 'push' of undefined",
+  stack: "TypeError: Cannot read property 'push' of undefined\n" +
+    '    at CreateScheduleProduct (D:\\DEV\\projek-api\\fish\\app\\controller\\product.js:116:26)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:95:5)'
+}
+{
+  date: '20-09-2023 13:14',
+  module: 'Server',
+  level: 'error',
+  message: 'Operation `users.findOne()` buffering timed out after 10000ms',
+  stack: 'Error: Operation `users.findOne()` buffering timed out after 10000ms\n' +
+    '    at verifyToken (D:\\DEV\\projek-api\\fish\\app\\passports\\jwt.js:24:44)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:95:5)'
+}
+{
+  date: '20-09-2023 13:29',
+  module: 'Server',
+  level: 'error',
+  message: 'forbidden',
+  stack: 'Error: forbidden\n' +
+    '    at verifyToken (D:\\DEV\\projek-api\\fish\\app\\passports\\jwt.js:11:42)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at trim_prefix (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:317:13)\n' +
+    '    at D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:284:7\n' +
+    '    at Function.process_params (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:335:12)\n' +
+    '    at next (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at Function.handle (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:174:3)\n' +
+    '    at router (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:47:12)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at trim_prefix (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:317:13)'
+}
+{
+  date: '20-09-2023 13:29',
+  module: 'Server',
+  level: 'error',
+  message: "Cannot destructure property 'user_id' of 'jwt.decode(...)' as it is null.",
+  stack: "Error: Cannot destructure property 'user_id' of 'jwt.decode(...)' as it is null.\n" +
+    '    at verifyToken (D:\\DEV\\projek-api\\fish\\app\\passports\\jwt.js:37:40)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at trim_prefix (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:317:13)\n' +
+    '    at D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:284:7\n' +
+    '    at Function.process_params (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:335:12)\n' +
+    '    at next (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:275:10)\n' +
+    '    at Function.handle (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:174:3)\n' +
+    '    at router (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:47:12)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at trim_prefix (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:317:13)'
+}
+{
+  date: '20-09-2023 13:29',
+  module: 'Server',
+  level: 'error',
+  message: 'schedule.save is not a function',
+  stack: 'TypeError: schedule.save is not a function\n' +
+    '    at updateStatusSchedule (D:\\DEV\\projek-api\\fish\\app\\controller\\product.js:138:24)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at next (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\route.js:137:13)\n' +
+    '    at Route.dispatch (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\route.js:112:3)\n' +
+    '    at Layer.handle [as handle_request] (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\layer.js:95:5)\n' +
+    '    at D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:281:22\n' +
+    '    at param (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:354:14)\n' +
+    '    at param (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:365:14)\n' +
+    '    at Function.process_params (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:410:3)\n' +
+    '    at next (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:275:10)'
+}

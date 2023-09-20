@@ -8,10 +8,10 @@ const httpRes = require('../helpers/httpRes');
 const Index = async (req, res, next) => {
     try {
         const product = await Product.find().populate({
-            path: 'schedule',
+            path: 'schedule_id',
         })
 
-        if (!product.length){
+        if (!product.length) {
             throw flaverr('E_NOT_FOUND', Error('Product not found'))
         }
 
@@ -44,10 +44,10 @@ const Create = async (req, res, next) => {
 const FindById = async (req, res, next) => {
     try {
         const { id } = req.params;
-        
+
         const product = await Product.findById(id);
 
-        if (!product){
+        if (!product) {
             throw flaverr('E_NOT_FOUND', Error(`Product  with id ${id} not found`));
         }
 
@@ -58,13 +58,13 @@ const FindById = async (req, res, next) => {
 }
 
 const Update = async (req, res, next) => {
-    try{ 
+    try {
         const { id } = req.params;
         const { type_product, serial_number, range_stock, detail_location } = req.body;
 
         const product = await Product.findById(id);
 
-        if (!product){
+        if (!product) {
             throw flaverr('E_NOT_FOUND', Error(`Product with ${id} not found`));
         }
 
@@ -76,7 +76,7 @@ const Update = async (req, res, next) => {
         await product.save()
 
         return httpRes(res, 200)
-    } catch (err){
+    } catch (err) {
         return next(err)
     }
 }
@@ -87,14 +87,14 @@ const Delete = async (req, res, next) => {
 
         const product = await Product.findById(id);
 
-        if (!product){
+        if (!product) {
             throw flaverr('E_NOT_FOUND', Error(`Product with ${id} not found`));
         }
 
         await product.deleteOne()
 
         return httpRes(res, 200)
-    } catch (err){
+    } catch (err) {
         return next(err)
     }
 }
@@ -102,7 +102,7 @@ const Delete = async (req, res, next) => {
 const CreateScheduleProduct = async (req, res, next) => {
     try {
         const { productId } = req.params;
-        const { schedule_date,  portion, status } = req.body;
+        const { schedule_date, portion, status } = req.body;
 
         const product = await Product.findById(productId);
 
@@ -111,15 +111,34 @@ const CreateScheduleProduct = async (req, res, next) => {
         }
 
         const schedule = new Schedule({ schedule_date, portion, status });
+        await schedule.save();
 
-        await Schedule.save();
-
-        product.schedule.push(schedule.id);
-
+        product.schedule_id.push(schedule);
         await product.save();
 
         return httpRes(res, 201)
     } catch (err) {
+        return next(err)
+    }
+}
+
+const updateStatusSchedule = async (req, res, next) => {
+    try {
+        const { id } = req.params;
+        const { status } = req.body;
+
+        
+        const schedule = await Schedule.findById(id);
+
+        if (!schedule) {
+            throw flaverr('E_NOT_FOUND', Error(`Schedule with ${id} not found`))
+        }
+
+        schedule.status  = status;
+        await schedule.save();
+
+        return httpRes(res, 200)
+    }  catch (err) {
         return next(err)
     }
 }
@@ -130,6 +149,7 @@ module.exports = {
     FindById,
     Update,
     Delete,
-    CreateScheduleProduct
+    CreateScheduleProduct,
+    updateStatusSchedule
 }
 
