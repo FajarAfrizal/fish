@@ -8,6 +8,8 @@ Route.get('/:id', Product.FindById);
 Route.put('/:id', Product.Update);
 Route.delete('/:id', Product.Delete);
 
+Route.post('/add-schedule/:productId', Product.CreateScheduleProduct);
+
 const routeProps = {
     Route,
     auth: true,

@@ -129,6 +129,7 @@ module.exports = {
     Create,
     FindById,
     Update,
-    Delete
+    Delete,
+    CreateScheduleProduct
 }
 
