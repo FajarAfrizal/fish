@@ -2594,3 +2594,12 @@
     '    at Function.process_params (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:410:3)\n' +
     '    at next (D:\\DEV\\projek-api\\fish\\node_modules\\express\\lib\\router\\index.js:275:10)'
 }
+{
+  date: '20-09-2023 13:30',
+  module: 'Server',
+  level: 'error',
+  message: 'Operation `users.findOne()` buffering timed out after 10000ms',
+  stack: 'Error: Operation `users.findOne()` buffering timed out after 10000ms\n' +
+    '    at verifyToken (D:\\DEV\\projek-api\\fish\\app\\passports\\jwt.js:24:44)\n' +
+    '    at processTicksAndRejections (internal/process/task_queues.js:95:5)'
+}

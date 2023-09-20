@@ -28,7 +28,7 @@ const login = async (req, res, next) => {
             username: result.username,
         }
 
-        const token = jwt.sign(payload, process.env.JWT_SECRET, { expiresIn: '1d' });
+        const token = jwt.sign(payload, process.env.JWT_SECRET, { expiresIn: '7d' });
 
         const data = {
             user: payload,
